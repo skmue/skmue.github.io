@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://skmue.github.io/about/</loc>
+  </url><url>
     <loc>https://skmue.github.io/categories/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/contact/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/cv/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/posts/frontpage/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/photos/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/posts/</loc>
+  </url><url>
+    <loc>https://skmue.github.io/science/</loc>
   </url><url>
     <loc>https://skmue.github.io/</loc>
   </url><url>
