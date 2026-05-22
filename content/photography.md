@@ -5,15 +5,41 @@ draft: false
 
 I take my camera anywhere and I use it respectfully.
 
-![Val Aupa in winter 2020/21](/photos/ValAupa.JPG)
+{{< figure
+    src="/photos/ValAupa.JPG"
+    alt=""
+    caption="Val Aupa in snow-rich winter 2020/21."
+>}}
 
-![Val Rosandra in March](/photos/P3060922.JPG)
 
-![Around Laghi di Fusine, towards Canlone della Strugova](/static/photos/P3120938.JPG)
+{{< figure
+    src="/photos/P3060922.JPG"
+    alt=""
+    caption="Val Rosandra in early springtime."
+>}}
 
-![Val Saisera on one of these days](/photos/P4101138.JPG)
+{{< figure
+    src="/photos/.JPG"
+    alt=""
+    caption="Around Laghi di Fusine, towards Canlone della Strugova."
+>}}
 
-![Val Alba in one of the longest day of the year](/photos/PA231689.JPG)
+{{< figure
+    src="/photos/P4101138.JPG"
+    alt=""
+    caption="Val Saisera on one of these days."
+>}}
 
-![I caught a lightning on a photo](/photos/Lightning_Color.jpg)
+{{< figure
+    src="/photos/PA231689.JPG"
+    alt=""
+    caption="Val Alba in one of the longest day of the year."
+>}}
+
+{{< figure
+    src="/photos/Lightning_Color.jpg"
+    alt=""
+    caption="I caught a lightning on a photo."
+>}}
+
 

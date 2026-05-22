@@ -1,4 +1,5 @@
-baseURL = "https://skmue.github.io/"
+# baseURL = "https://skmue.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'Sebastian K. Müller'
 themesDir = "themes"
@@ -13,17 +14,17 @@ themesDir = "themes"
     path = "github.com/526avijitgupta/gokarna"
 
 [params]
-  avatarURL = "/images/avatar.png"
-  description = "Your description here"
+  #avatarURL = "/images/avatar.png"
+  #description = "Your description here"
   showPostsOnHomePage = true
   footer = "Sebastian K. Müller"
 
 [menu]
 
-  [[menu.main]]
-    name = "About me"
-    url = "/aboutme/"
-    weight = 1
+#  [[menu.main]]
+#    name = "About me"
+#    url = "/aboutme/"
+#    weight = 1
 
   [[menu.main]]
     name = "Research"

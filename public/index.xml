@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Sebastian K. Müller</title>
+    <title>Sebastian K. Müller</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Sebastian K. Müller</description>
+    <description>Recent content on Sebastian K. Müller</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 10:18:58 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 10:16:32 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Powderguide</title>
-      <link>http://localhost:1313/powderguide/</link>
-      <pubDate>Fri, 22 May 2026 10:18:58 +0200</pubDate>
-      <guid>http://localhost:1313/powderguide/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Aboutme</title>
       <link>http://localhost:1313/aboutme/</link>
@@ -41,7 +34,14 @@
       <link>http://localhost:1313/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photography/</guid>
-      <description>I take my camera anywhere and I use it respectfully.</description>
+      <description>I take my camera anywhere and I use it respectfully.&#xA;Val Aupa in snow-rich winter 2020/21. Val Rosandra in early springtime. Around Laghi di Fusine, towards Canlone della Strugova. Val Saisera on one of these days. Val Alba in one of the longest day of the year. I caught a lightning on a photo. </description>
+    </item>
+    <item>
+      <title>Powderguide</title>
+      <link>http://localhost:1313/powderguide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/powderguide/</guid>
+      <description> Your browser does not support iframes. </description>
     </item>
     <item>
       <title>Research</title>
