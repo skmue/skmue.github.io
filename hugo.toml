@@ -1,0 +1,46 @@
+baseURL = "http://localhost:1313/"
+languageCode = 'en-us'
+title = 'Sebastian K. Müller'
+themesDir = "themes"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/526avijitgupta/gokarna"
+
+[params]
+  avatarURL = "/images/avatar.png"
+  description = "Your description here"
+  showPostsOnHomePage = true
+  footer = "Sebastian K. Müller"
+
+[menu]
+
+  [[menu.main]]
+    name = "About me"
+    url = "/aboutme/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Powderguide"
+    url = "/powderguide/"
+    weight = 3
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Photographies"
+    url = "/photography/"
+    weight = 5
