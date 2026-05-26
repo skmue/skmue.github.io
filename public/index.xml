@@ -27,7 +27,7 @@
       <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
-      <description>Please find my latest CV for download.</description>
+      <description>Please find here my latest academic CV.</description>
     </item>
     <item>
       <title>Photos</title>
@@ -37,11 +37,11 @@
       <description>I take my camera anywhere and I use it respectfully.&#xA;Val Aupa in snow-rich winter 2020/21. Val Rosandra in early springtime. Around Laghi di Fusine, towards Canlone della Strugova. Val Saisera on one of these days. Val Alba in one of the longest day of the year. I caught a lightning on a photo. </description>
     </item>
     <item>
-      <title>Powderguide</title>
+      <title>PowderGuide</title>
       <link>http://localhost:1313/powderguide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/powderguide/</guid>
-      <description> Your browser does not support iframes. </description>
+      <description>In the summer of 2023 me and croox.com started developing a weather service, dedicated to winter mountain activities, in particular skitouring and freeride, and it is operational ever since winter 2023/24 on powderguide.com. We process and visualize the ICON numerical weather forecasts run by the german weather service DWD. In its third version we are presenting these forecasts on a three-dimensional map.&#xA;Your browser does not support iframes. Expedition Meteorology In spring of 2026 I started to prepare myself for working as expedition meteorologist.</description>
     </item>
     <item>
       <title>Research</title>
