@@ -19,7 +19,7 @@ I take my camera anywhere and I use it respectfully.
 >}}
 
 {{< figure
-    src="/photos/.JPG"
+    src="/photos/P3120938.JPG"
     alt=""
     caption="Around Laghi di Fusine, towards Canlone della Strugova."
 >}}

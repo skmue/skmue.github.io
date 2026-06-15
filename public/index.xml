@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 22 May 2026 10:16:32 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aboutme</title>
+      <title>Expedition Meteorology</title>
       <link>http://localhost:1313/aboutme/</link>
       <pubDate>Fri, 22 May 2026 10:16:32 +0200</pubDate>
       <guid>http://localhost:1313/aboutme/</guid>
-      <description>All about me.</description>
+      <description>In spring of 2026 Powderguide partnered up with endurance athlete Tobias Renggli, who, together with our friend and mountain goat Heli Hoffmann and polar scientist Laetitia Lam, intended to scale, as the first of many mountains in America, Denali in Alaska, the tallest of the USA. So I became their expedition&amp;rsquo;s meteorologist. I refined my primary tool, the PowderGram, feeding it with&#xA;the global ICON forecast, for an estimate of the mid-range (7.</description>
     </item>
     <item>
       <title>Test Post</title>
@@ -41,7 +41,7 @@
       <link>http://localhost:1313/powderguide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/powderguide/</guid>
-      <description>In the summer of 2023 me and croox.com started developing a weather service, dedicated to winter mountain activities, in particular skitouring and freeride, and it is operational ever since winter 2023/24 on powderguide.com. We process and visualize the ICON numerical weather forecasts run by the german weather service DWD. In its third version we are presenting these forecasts on a three-dimensional map.&#xA;Your browser does not support iframes. Expedition Meteorology In spring of 2026 I started to prepare myself for working as expedition meteorologist.</description>
+      <description>In the summer of 2023 me and croox.com started developing a weather service, dedicated to winter mountain activities, in particular skitouring and freeride, and it is operational ever since winter 2023/24 on powderguide.com. We process and visualize the ICON numerical weather forecasts run by the german weather service DWD. In its third version we are presenting these forecasts on a three-dimensional map and we in this article summarize the developments.</description>
     </item>
     <item>
       <title>Research</title>

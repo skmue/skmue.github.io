@@ -7,9 +7,9 @@ draft = false
 
 * Segura, H., Pedruzo-Bagazgoitia, X., Weiss, P., Müller, S. K., Rackow, T., Lee, J., ... & Stevens, B. (2025). [nextGEMS: entering the era of kilometer-scale Earth system modeling](https://gmd.copernicus.org/articles/18/7735/2025/). Geoscientific Model Development, 18(20), 7735-7761.
 
-* Müller, Sebastian K., et al. (2023): [The climate change response of alpine-mediterranean heavy precipitation events](https://www.dropbox.com/scl/fi/e3ge1i39nw9pzalqa6mbl/Mueller_etal_2023_HPEsCC_AcceptedManuscript.pdf?rlkey=omee4utrb9nr701wrix8lzyb3&dl=0). Climate Dynamics (2023): 1-22. 
+* Müller, Sebastian K., et al. (2023): [The climate change response of alpine-mediterranean heavy precipitation events](https://link.springer.com/article/10.1007/s00382-023-06901-9). Climate Dynamics (2023): 1-22. 
 
-* Müller, S. K., Caillaud, C., Chan, S., De Vries, H., Bastin, S., Berthou, S., ... & Warrach-Sagi, K. (2022): [Evaluation of Alpine-Mediterranean precipitation events in convection-permitting regional climate models using a set of tracking algorithms](https://www.dropbox.com/scl/fi/5th94rw425kwm2nbtbo3q/Mueller_etal_2022_TrackEva_ModelInterC.pdf?rlkey=uajdehsntwm55wcfdow4g5no0&dl=0). Climate Dynamics, 1-19.
+* Müller, S. K., Caillaud, C., Chan, S., De Vries, H., Bastin, S., Berthou, S., ... & Warrach-Sagi, K. (2022): [Evaluation of Alpine-Mediterranean precipitation events in convection-permitting regional climate models using a set of tracking algorithms](https://link.springer.com/article/10.1007/s00382-022-06555-z). Climate Dynamics, 1-19.
 
 * Coppola, E., Raffaele, F., Giorgi, F., Giuliani, G., Xuejie, G., Ciarlo, J. M., Müller, S. K., ... & Rechid, D. (2021): [Climate hazard indices projections based on CORDEX-CORE, CMIP5 and CMIP6 ensemble](https://link.springer.com/article/10.1007/s00382-021-05640-z). Climate Dynamics, 57(5), 1293-1383.
 

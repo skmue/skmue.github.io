@@ -1,5 +1,5 @@
-baseURL = "https://skmue.github.io/"
-# baseURL = "http://localhost:1313/"
+# baseURL = "https://skmue.github.io/"
+baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'Sebastian K. Müller'
 themesDir = "themes"
@@ -21,10 +21,10 @@ themesDir = "themes"
 
 [menu]
 
-#  [[menu.main]]
-#    name = "About me"
-#    url = "/aboutme/"
-#    weight = 1
+ [[menu.main]]
+   name = "Expedition Meteorology"
+   url = "/aboutme/"
+   weight = 1
 
   [[menu.main]]
     name = "Research"

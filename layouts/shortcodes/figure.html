@@ -1,4 +1,10 @@
-<figure>
-  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+<figure style='width:{{ .Get "width" | default "100%" }};'>
+  <a href='{{ .Get "src" }}'>
+    <img
+      src='{{ .Get "src" }}'
+      alt='{{ .Get "alt" }}'
+      style='width:100%;'
+    >
+  </a>
   <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>
