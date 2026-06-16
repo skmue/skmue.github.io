@@ -1,7 +1,10 @@
 +++
-title = 'PowderGuide'
+title = 'PowderGuide.com weather forecasts'
 +++
-In the summer of 2023 me and [croox.com](https://croox.com/) started developing a weather service, dedicated to winter mountain activities, in particular skitouring and freeride, and it is operational ever since winter 2023/24 on [powderguide.com](map.powderguide.com). We process and visualize the ICON numerical weather forecasts run by the german weather service [DWD](https://www.dwd.de/EN/research/weatherforecasting/num_modelling/01_num_weather_prediction_modells/icon_description.html). In its third version we are presenting these forecasts on a three-dimensional map and we in this article summarize the developments. 
+
+# Short History
+
+In summer of 2023 [croox.com](https://croox.com/) and me started developing a weather service, dedicated to winter mountain activities, in particular skitouring and freeride, and it is operational ever since the release of its first version in December 2023 on [powderguide.com](map.powderguide.com). We process and visualize the ICON numerical weather forecasts run by the german weather service [DWD](https://www.dwd.de/EN/research/weatherforecasting/num_modelling/01_num_weather_prediction_modells/icon_description.html). In its third version we are presenting these forecasts on a three-dimensional map and [in this article the present PG-ICON-weather v3.0 in PG-Map is summarized](https://powderguide.com/en/magazine/news/the-new-powderguide-map-is-live). 
 <iframe src="https://map.powderguide.com/de/embed/mini/?b=72&c%5Blng%5D=6.8647&c%5Blat%5D=45.8327&date=today&day=072&p=1&t=71.5&varName=snow_gsp_noJnsd__lsfwe&z=12.5" 
             width="500"
             height="500"
@@ -10,6 +13,8 @@ In the summer of 2023 me and [croox.com](https://croox.com/) started developing 
 </iframe>
 
 <script src="./js/pwg-minimap-observer.js"></script>
+
+
 Further my interpretation of meteograms, referred to as PowderGrams, were operationalized and are documented [in this article](https://powderguide.com/en/magazine/news/powderguide-map-tutorial-powdergram). 
 
 <div style="display:flex; gap:1rem;">
@@ -24,73 +29,64 @@ Further my interpretation of meteograms, referred to as PowderGrams, were operat
         width="100"
         alt=""
         caption="The PowderGram for the Zugspitze and Garmisch-Partenkirchen, Bavaria, 17/02/2026: Currently and for the next few days snowfall down to the valley because no rain. No radiation due to persistent cloud cover but nevertheless warming of the snow cover during the day. Wind speeds weak, from westerly directions."
-        
+
     >}}
 </div>
-# Expedition Meteorology
-In spring of 2026 Powderguide partnered up with endurance athlete Tobias Renggli, who, together with our friend and mountain goat Heli Hoffmann and polar scientist Laetitia Lam, intended to scale, as the first of many mountains in America, Denali in Alaska, the tallest of the USA. So I became their expedition's meteorologist. I refined my primary tool, the PowderGram, feeding it with 
-* the global ICON forecast, for an estimate of the mid-range (7.5 day) weather conditions, and with 
-* high-resolution forecasts for the mountains of Alaska, WRF-HRRR, run by [NCEP](https://www.weather.gov/ncep/), for the most precise short-term (48h) forecast.. 
 
-The advantages of this approach are most importantly
-* all information in one graph
-* I know what is done
-* confronting valley, mountain and circumference. 
 
-<!-- {{< figure
-    src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaliCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png"
-    width="60%"
-    alt=""
-    caption="PowderGram for Camp III and the Summit of Denali, 06/03/2026: Sunny and calm conditions for the next 4 days predicted."
->}}
+# Milestones:
 
-{{< figure
-    src="/photos/PowderGram_DenaliSummit_63.069113_-151.006243_DenaliCampIV-14000_63.069813_-151.076996_circumference_2_WRF-HRRR-AK_EDAY.png"
-    width="60%"
-    alt=""
-    caption="PowderGram for Camp IV and the Summit of Denali, 10/05/2026: "
->}} -->
+12/2023: Release [PG-ICON-Weather v1.0](https://powderguide.com/en/magazine/interviews/interview-sebastian-zum-neuen-powderguide-wetter)
+- automatic download and visualization of ICON-D2 and ICON-EU for the alps
+- production of standard forecast variables new snow amount, snow depth, sunshine hours, gusts
+- presentation of snow age, snow density und snow temperature
+- probabilistic weather forecasts using ensemble models ICON-D2-EPS and ICON-EU-EPS
+- masks for indicating of unfavorable snow conditions
 
-# Denali, 6190m, on 15/05/2026
+03/2024: Update [PG-ICON-Weather v1.1](https://powderguide.com/en/magazine/news/extension-pg-icon-weather-forecast-maps)
+- forecasts extended for regions (Scandinavia, Caucasus, Pyrenees, Balkan)
+- search function
 
-My team summitted in the afternoon of the 15th of June in 2026, as the first of the season. The following were my forecasts:
+12/2024: Release [PG-ICON-Weather v2.4.0](https://powderguide.com/en/magazine/wetterblog/weatherblog-15-202425-the-new-powderguide-weather-v240)
 
-[Forecast as of 14/05/2026] [16 AKDT]
+- new global regions: north America, Andes, Cashmere, Japan
+- extended forecasting period: 7.5 days
+- new forecast variables: cloud cover, near-surface relative humidity, freezing line
+- new snow depth models: SNOWGRID for Austria, EXOLABS globally
+- Probe for the identifications of specific values
 
-Tomorrow, 15/05 | Camp IV - CampV Conditions: Clouds passing by in calm winds!
-☀️ SUN: little chances for sunshine, but not none.
-👁️ VISIBILITY: Limited and variable visibility, no long-lasting whiteout forecasted.
-💨 WIND: Winds turn northerly. They are calm with speeds less than 20 km/h and little gustiness.
-☁️ CLOUDS: Intermittent low and mid-level cloudiness.
-🌧️ PRECIP: Light snowfalls forecasted around 3PM. Accumulations less than 5 cm.
-🌡️ TEMPS: Temperatures at Camp IV [4300 m.a.s.l] around -20°C, wind chill temp. around -25°C, at CampV [5225 m.a.s.l] around -30°C, wind chill temperature around -40°C. Pressure rising again, advection of slightly cooler and drier air, but wind chill effect is weak.
+01/2026: Release [PG-ICON-Weather v3.0: PG-Map](https://powderguide.com/en/magazine/news/the-new-powderguide-map-is-live)
 
-The day after tomorrow, 16/05 | CampV - Denali Summit Conditions: Sunshine in significant winds!
-☀️ SUN: high chances for sunshine from 9 AM on.
-👁️ VISIBILITY: Great visibility.
-💨 WIND: Winds turn back south-south-westerly. They speed up to 30-40 km/h, with gusts around 50 km/h.
-☁️ CLOUDS: Little cloudiness forecasted.
-🌧️ PRECIP: No precipitation forecasted.
-🌡️ TEMPS: Temperatures at CampV [5225 m.a.s.l] around -35°C, wind chill effect is significant, and can be as low as -55°C. On the summit [6190 m.a.s.l.], temperatures around -45°C, wind chill temperatures can go below -60°C.
+- parallelization and on-demand computation: 3-hourly temporal resolution
+- three-dimensional map
+- [PowderGrams](https://powderguide.com/en/magazine/news/powderguide-map-tutorial-powdergram)
+- implementation of new snow density and new snow height
+- new forecasting variables: surface pressure, 500hPa geopotential, (500hPa-1000hPa) geopotential thickness, orography
 
-*for which I used mainly used these two PowderGrams, one using WRF-HRRR-AK and one ICON, for valley location Camp IV and mountain Denali summit:*
 
-<div style="display:flex; gap:1rem;">
-    {{< figure 
-    src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaleCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png" 
-    width="77%" >}}
-    {{< figure 
-    src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaleCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png" 
-    width="77%" 
-    caption="" >}}
-</div>
+05/2026: global PowderGrams for expedition meteorology
 
-*and finally I advised.*
+- implementation of the global ICON und WRF-HRRR-AK forecasts in PowderGrams
 
-Summit Push Situation:
-15/05: I see this day due to calm winds and despite limited visibility as favorable for getting back up to Camp V.
-16/05: I must warn in regards of the winds, and the wind chill temperatures. Else, I see excellent visibility until late in the day, and obviously no precipitation. Only by midnight cloudiness is forecasted to return.
-17/05: Winds remain at moderate speeds, gustiness increasing, maybe to beyond -75 km/h. Unmounting Camp V can pose a challenge. But eventually you can judge on 16/05 yourself, the windiness is similar, only gustier on 17/05. No significant precipitation forecasted. Mixed visbility, no whiteout to be expected, and even sunshine possible.
-18/05: Weather situation not changing much. Gustiness calming down.
-19-21/05: No storm to be expected, but precipitation possible. A retreat to Base Camp nevertheless should be possible. Note that I do not see a favorable and sunny weather window here. 21/05 seems sunny, but this is long time ahead.
 
+# Projects: 
+### avalanche risk maps
+
+- Michael Neuhauser and Chris d’Amboise
+- co-development of a novel dataset of avalanche release and runout zones
+    -using FlowPy
+    -specialised for the demands of freeriders und ski alpinists
+- slope steepness and exposition
+
+### Implementation operationeller Schneedeckenmodellierung
+
+- Prognose des Schneedeckenaufbaus für ausgewählte Berge und unterschiedliche Expositionen und Höhenlagen
+    -unter Verwendung von SNOWPACK and AWSOME
+    -unter Fokus auf Schneequalität und Schneezustandformen
+    -potentiell auch geeignet zur Einschätzung des Lawinenrisikos
+<!-- Anselm Köhler
+Michael
+Leo -->
+
+
+### Implementation of observations through [Alpinemeteo.com](www.Alpinemeteo.com)

@@ -34,32 +34,22 @@ The advantages of this approach are most importantly
 
 [Forecast as of 14/05/2026] [16 AKDT]
 
-Tomorrow, 15/05 | Camp IV - CampV Conditions: Clouds passing by in calm winds!
+Tomorrow, 15/05 | Camp IV - CampV Conditions:<br> Clouds passing by in calm winds!
 
-☀️ SUN: little chances for sunshine, but not none.
-
-👁️ VISIBILITY: Limited and variable visibility, no long-lasting whiteout forecasted.
-
-💨 WIND: Winds turn northerly. They are calm with speeds less than 20 km/h and little gustiness.
-
-☁️ CLOUDS: Intermittent low and mid-level cloudiness.
-
-🌧️ PRECIP: Light snowfalls forecasted around 3PM. Accumulations less than 5 cm.
-
+☀️ SUN: little chances for sunshine, but not none.<br>
+👁️ VISIBILITY: Limited and variable visibility, no long-lasting whiteout forecasted.<br>
+💨 WIND: Winds turn northerly. They are calm with speeds less than 20 km/h and little gustiness.<br>
+☁️ CLOUDS: Intermittent low and mid-level cloudiness.<br>
+🌧️ PRECIP: Light snowfalls forecasted around 3PM. Accumulations less than 5 cm.<br>
 🌡️ TEMPS: Temperatures at Camp IV [4300 m.a.s.l] around -20°C, wind chill temp. around -25°C, at CampV [5225 m.a.s.l] around -30°C, wind chill temperature around -40°C. Pressure rising again, advection of slightly cooler and drier air, but wind chill effect is weak.
 
-The day after tomorrow, 16/05 | CampV - Denali Summit Conditions: Sunshine in significant winds!
+The day after tomorrow, 16/05 | CampV - Denali Summit Conditions:<br> Sunshine in significant winds!
 
-☀️ SUN: high chances for sunshine from 9 AM on.
-
-👁️ VISIBILITY: Great visibility.
-
-💨 WIND: Winds turn back south-south-westerly. They speed up to 30-40 km/h, with gusts around 50 km/h.
-
-☁️ CLOUDS: Little cloudiness forecasted.
-
-🌧️ PRECIP: No precipitation forecasted.
-
+☀️ SUN: high chances for sunshine from 9 AM on.<br>
+👁️ VISIBILITY: Great visibility.<br>
+💨 WIND: Winds turn back south-south-westerly. They speed up to 30-40 km/h, with gusts around 50 km/h.<br>
+☁️ CLOUDS: Little cloudiness forecasted.<br>
+🌧️ PRECIP: No precipitation forecasted.<br>
 🌡️ TEMPS: Temperatures at CampV [5225 m.a.s.l] around -35°C, wind chill effect is significant, and can be as low as -55°C. On the summit [6190 m.a.s.l.], temperatures around -45°C, wind chill temperatures can go below -60°C.
 
 *for which I used mainly used these two PowderGrams, one using WRF-HRRR-AK and one ICON, for valley location Camp IV and mountain Denali summit:*
@@ -77,9 +67,10 @@ The day after tomorrow, 16/05 | CampV - Denali Summit Conditions: Sunshine in si
 *and finally I advised.*
 
 Summit Push Situation:
-15/05: I see this day due to calm winds and despite limited visibility as favorable for getting back up to Camp V.
-16/05: I must warn in regards of the winds, and the wind chill temperatures. Else, I see excellent visibility until late in the day, and obviously no precipitation. Only by midnight cloudiness is forecasted to return.
-17/05: Winds remain at moderate speeds, gustiness increasing, maybe to beyond -75 km/h. Unmounting Camp V can pose a challenge. But eventually you can judge on 16/05 yourself, the windiness is similar, only gustier on 17/05. No significant precipitation forecasted. Mixed visbility, no whiteout to be expected, and even sunshine possible.
-18/05: Weather situation not changing much. Gustiness calming down.
-19-21/05: No storm to be expected, but precipitation possible. A retreat to Base Camp nevertheless should be possible. Note that I do not see a favorable and sunny weather window here. 21/05 seems sunny, but this is long time ahead.
+15/05: I see this day due to calm winds and despite limited visibility as favorable for getting back up to Camp V.<br>
+16/05: I must warn in regards of the winds, and the wind chill temperatures. Else, I see excellent visibility until late in the day, and obviously no precipitation. Only by midnight cloudiness is forecasted to return.<br>
+17/05: Winds remain at moderate speeds, gustiness increasing, maybe to beyond -75 km/h. Unmounting Camp V can pose a challenge. But eventually you can judge on 16/05 yourself, the windiness is similar, only gustier on 17/05. No significant precipitation forecasted. Mixed visbility, no whiteout to be expected, and even sunshine possible.<br>
+18/05: Weather situation not changing much. Gustiness calming down.<br>
+19-21/05: No storm to be expected, but precipitation possible. A retreat to Base Camp nevertheless should be possible. Note that I do not see a favorable and sunny weather window here.<br>
+21/05 seems sunny, but this is long time ahead.
 

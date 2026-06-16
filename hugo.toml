@@ -42,6 +42,6 @@ themesDir = "themes"
     weight = 4
 
   [[menu.main]]
-    name = "Photographies"
+    name = "Photography"
     url = "/photography/"
     weight = 5
