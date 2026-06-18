@@ -14,19 +14,21 @@ The advantages of this approach are most importantly
 * I know what is done
 * confronting valley, mountain and circumference. 
 
-<!-- {{< figure
-    src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaliCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png"
-    width="60%"
-    alt=""
-    caption="PowderGram for Camp III and the Summit of Denali, 06/03/2026: Sunny and calm conditions for the next 4 days predicted."
->}}
+<div style="display:flex; gap:1rem;">
+    {{< figure
+        src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaliCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png"
+        width="60%"
+        alt=""
+        caption="PowderGram for Camp III and the Summit of Denali, 06/03/2026: Sunny and calm conditions for the next 4 days predicted."
+    >}}
 
-{{< figure
-    src="/photos/PowderGram_DenaliSummit_63.069113_-151.006243_DenaliCampIV-14000_63.069813_-151.076996_circumference_2_WRF-HRRR-AK_EDAY.png"
-    width="60%"
-    alt=""
-    caption="PowderGram for Camp IV and the Summit of Denali, 10/05/2026: "
->}} -->
+    {{< figure
+        src="/photos/PowderGram_DenaliSummit_63.069113_-151.006243_DenaliCampIV-14000_63.069813_-151.076996_circumference_2_WRF-HRRR-AK_EDAY.png"
+        width="60%"
+        alt=""
+        caption="PowderGram for Camp IV and the Summit of Denali, 10/05/2026: "
+    >}}
+</div>
 
 # Denali, 6190m, on 15/05/2026
 
@@ -53,8 +55,8 @@ The day after tomorrow, 16/05 | CampV - Denali Summit Conditions:<br> Sunshine i
 🌡️ TEMPS: Temperatures at CampV [5225 m.a.s.l] around -35°C, wind chill effect is significant, and can be as low as -55°C. On the summit [6190 m.a.s.l.], temperatures around -45°C, wind chill temperatures can go below -60°C.
 
 *for which I used mainly used these two PowderGrams, one using WRF-HRRR-AK and one ICON, for valley location Camp IV and mountain Denali summit:*
-
-<div style="display:flex; gap:1rem;">
+<
+<div style="display:flex; gap:1rem;">>
     {{< figure 
     src="/photos/PowderGram_DenaliSummit_63.069115_-151.006239_DenaleCampIII_63.073822_-151.151154_circumference_4_icon-eps_EDAY.png" 
     width="77%" >}}
