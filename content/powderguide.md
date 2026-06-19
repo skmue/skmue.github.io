@@ -78,12 +78,12 @@ Further my interpretation of meteograms, referred to as PowderGrams, were operat
     -specialised for the demands of freeriders und ski alpinists
 - slope steepness and exposition
 
-### Implementation operationeller Schneedeckenmodellierung
+### Implementation of an operational snow pack modelling
 
-- Prognose des Schneedeckenaufbaus für ausgewählte Berge und unterschiedliche Expositionen und Höhenlagen
-    -unter Verwendung von SNOWPACK and AWSOME
-    -unter Fokus auf Schneequalität und Schneezustandformen
-    -potentiell auch geeignet zur Einschätzung des Lawinenrisikos
+- forecast of the snow pack for selected mountains and different expositions and altitudes
+    - using SNOWPACK and AWSOME
+    - focussing on snow grain types and snow quality
+    - with potential for avalanche risk assessment
 <!-- Anselm Köhler
 Michael
 Leo -->

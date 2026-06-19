@@ -1,7 +1,10 @@
 ---
 title: ""
 ---
-A researcher of the atmosphere and climate practising the art of forecasting mountain weather.
+
+I practise the art of forcasting weather for expeditions on high mountains,
+
+and I have been a researcher of the atmosphere and climate.
 
 
 {{< figure
