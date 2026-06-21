@@ -23,7 +23,7 @@ themesDir = "themes"
 
  [[menu.main]]
    name = "Expedition Meteorology"
-   url = "/aboutme/"
+   url = "/expedmet/"
    weight = 1
 
   [[menu.main]]
