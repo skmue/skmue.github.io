@@ -1,0 +1,15 @@
+
+
+# 6. Check the process
+curl -v \
+  "https://api.mapbox.com/tilesets/v1/croox.icon_uv10m_n128-tileset/jobs/cmqjch9h700190ekzh3aj510j?access_token=${YOUR_SECRET_MAPBOX_ACCESS_TOKEN}"
+  
+
+cdo -f nc4 mergetime data/20260617/redisn90global_icon_global_icosahedral_*U_10*.grib data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_U_10M.grib2 
+
+cdo -f nc4 mergetime data/20260617/redisn90global_icon_global_icosahedral_*U_10*.grib2 data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_U_10M.grib2 
+
+cdo -f nc4 mergetime data/20260617/redisn90global_icon_global_icosahedral_*V_10*.grib2 data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_V_10M.grib2
+
+cdo  -f nc4c -O -merge -sellonlatbox,-180,180,-90,90 -selname,10u data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_U_10M.grib2  -sellonlatbox,-180,180,-90,90 -selname,10v data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_V_10M.grib2 data/20260617/redisn90global_icon_global_icosahedral_single-level_2026061700_oooo_UV_10M.grib2
+
